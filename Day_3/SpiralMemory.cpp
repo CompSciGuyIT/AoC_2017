@@ -4,6 +4,9 @@
 using namespace std;
 
 int main(void) {
+    // For initial square to be set to all zeros,
+    // must set direction_count to -1 in Down direction
+    // to simulate what would be that prior array state
     int direction_count[4] = {0, 0, 0, -1}; // [Right, Up, Left, Down]
     int direction_index = 3;                // indexes direction_count array
     
